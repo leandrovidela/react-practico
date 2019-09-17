@@ -1,4 +1,5 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { HelloWord } from "./components/HelloWord"
 
-ReactDOM.render(<p>hola</p>, document.getElementById(app))
+ReactDOM.render(<HelloWord />, document.getElementById("app"))
